@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Stock Item</title>
+</head>
+<body>
+    <h2>Add New Stock Item</h2>
+    <form action="addStock" method="POST">
+        Product Name: <input type="text" name="product_name" required><br>
+        Quantity: <input type="number" name="quantity" required><br>
+        Price: <input type="number" step="0.01" name="price" required><br>
+        <input type="submit" value="Add Stock">
+    </form>
+    <br>
+    <a href="stockManagement">Back to Stock List</a>
+</body>
+</html>
